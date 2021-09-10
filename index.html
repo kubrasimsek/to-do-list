@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+    <style>
+        a:hover > i{
+            color: blue;
+        }
+        a > i{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container p-3">
+        <h1>To Do App</h1>
+        <div class="card mb-3">
+            <div class="card-header">
+                New Task
+              </div>
+              <div class="card-body">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Type a new task" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button"><i class="fas fa-plus"></i></button>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        <div class="card">
+            <div class="card-header d-flex justify-content-between">
+                Task List
+                <button class="btn btn-outline-danger btn-sm">Delete All</button>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                    To do item
+                    <a href="#"><i class="fas fa-times"></i></a>                  
+                </li>
+                <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                    To do item
+                    <a href="#"><i class="fas fa-times"></i></a>                  
+                </li>
+                <li class="list-group-item list-group-item-secondary d-flex justify-content-between align-items-center">
+                    To do item
+                    <a href="#"><i class="fas fa-times" ></i></a>                  
+                </li>
+                <li class="list-group-item list-group-item-danger d-flex justify-content-between align-items-center">
+                    To do item
+                    <a href="#"><i class="fas fa-times"></i></a>                  
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
